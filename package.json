@@ -1,0 +1,40 @@
+{
+  "name": "emails_aws_amplify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.24.0",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "ag-grid-community": "^27.0.1",
+    "ag-grid-enterprise": "^27.0.1",
+    "ag-grid-react": "^25.3.0",
+    "antd": "^5.0.1",
+    "aws-sdk": "^2.957.0",
+    "dns": "^0.2.2",
+    "moment": "^2.29.1",
+    "next": "11.0.1",
+    "next-auth": "^3.29.0",
+    "next-connect": "^0.10.2",
+    "notistack": "^1.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.8",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-config-next": "11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2"
+  }
+}
